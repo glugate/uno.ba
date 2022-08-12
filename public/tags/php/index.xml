@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>php on Uno</title>
+    <link>https://uno.ba/tags/php/</link>
+    <description>Recent content in php on Uno</description>
+    <image>
+      <url>https://uno.ba/papermod-cover.png</url>
+      <link>https://uno.ba/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 12 Aug 2022 18:00:56 +0200</lastBuildDate><atom:link href="https://uno.ba/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Journey from PHP to Go</title>
+      <link>https://uno.ba/posts/journey-from-php-to-go/</link>
+      <pubDate>Fri, 12 Aug 2022 18:00:56 +0200</pubDate>
+      
+      <guid>https://uno.ba/posts/journey-from-php-to-go/</guid>
+      <description>Introduction PHP is the most popular language in the world, but there are some features that can make it look dated. One such feature is its lack of static typing and errors at compile time.
+Golang solves this by introducing static typing with type inference and compile-time type checking. In this article we will explore how Go compares with PHP and why you should consider migrating from PHP to Go if you have not already done so!</description>
+    </item>
+    
+  </channel>
+</rss>

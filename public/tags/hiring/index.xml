@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hiring on Uno</title>
+    <link>https://uno.ba/tags/hiring/</link>
+    <description>Recent content in hiring on Uno</description>
+    <image>
+      <url>https://uno.ba/papermod-cover.png</url>
+      <link>https://uno.ba/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Aug 2022 18:22:56 +0200</lastBuildDate><atom:link href="https://uno.ba/tags/hiring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Succession Plan for Your Company</title>
+      <link>https://uno.ba/posts/successio-plan/</link>
+      <pubDate>Thu, 11 Aug 2022 18:22:56 +0200</pubDate>
+      
+      <guid>https://uno.ba/posts/successio-plan/</guid>
+      <description>Whether you’re working with a new team or need to bring expertise into your organization, succession planning is essential to hiring employees who will thrive in your organization.
+In the tech world, this means finding employees that have the skills and passion to grow in your organization. Often, when we think about succession planning, we think about replacing an employee that is leaving. But what about hiring someone new? And what does that look like?</description>
+    </item>
+    
+  </channel>
+</rss>

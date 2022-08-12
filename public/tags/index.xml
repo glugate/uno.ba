@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Uno</title>
+    <link>https://uno.ba/tags/</link>
+    <description>Recent content in Tags on Uno</description>
+    <image>
+      <url>https://uno.ba/papermod-cover.png</url>
+      <link>https://uno.ba/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 12 Aug 2022 18:00:56 +0200</lastBuildDate><atom:link href="https://uno.ba/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>go</title>
+      <link>https://uno.ba/tags/go/</link>
+      <pubDate>Fri, 12 Aug 2022 18:00:56 +0200</pubDate>
+      
+      <guid>https://uno.ba/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://uno.ba/tags/php/</link>
+      <pubDate>Fri, 12 Aug 2022 18:00:56 +0200</pubDate>
+      
+      <guid>https://uno.ba/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hiring</title>
+      <link>https://uno.ba/tags/hiring/</link>
+      <pubDate>Thu, 11 Aug 2022 18:22:56 +0200</pubDate>
+      
+      <guid>https://uno.ba/tags/hiring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>succession</title>
+      <link>https://uno.ba/tags/succession/</link>
+      <pubDate>Thu, 11 Aug 2022 18:22:56 +0200</pubDate>
+      
+      <guid>https://uno.ba/tags/succession/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
