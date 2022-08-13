@@ -1,6 +1,7 @@
 ---
 title: "Getting Started with Uno"
 date: 2022-08-13T01:00:10+02:00
+lastmod: 2022-08-13T17:00:10+02:00
 draft: false
 tags: ["go", "uno", "framework", "api"]
 author: "Uno"
@@ -137,4 +138,12 @@ You can now run:
 ```bash
 go run .
 ```
+
+The server is started, but we still dont have any routes registered. Let's create a controller:
+
+```bash
+mkdir controllers
+nano controllers/users.go
+```
+
 To be continued...
