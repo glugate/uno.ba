@@ -41,7 +41,7 @@ func main() {
 
 ```
 
-We need a data source, so let's create MySql database:
+We need a data source, so let's create a MySql database:
 
 ```bash
 mysql -u root -p
@@ -68,13 +68,50 @@ DB_DRIVER=mysql
 DB_DSN="root:root@tcp(127.0.0.1:3306)/uno_demo?parseTime=true"
 ```
 
+Now that we have a database, let's create some migrations:
+
+```bash
+mkdir db/migrations -p
+nano db/migrations/000001_create_users_table.up.sql
+```
+
+Paste the following SQL:
+
+```sql
+CREATE TABLE IF NOT EXISTS users
+	(
+		`id`          INTEGER PRIMARY KEY AUTO_INCREMENT,
+		`email`       VARCHAR(255) NOT NULL,
+		`first_name`  VARCHAR(255) NOT NULL,
+		`last_name`   VARCHAR(255) NOT NULL,
+		`password`    VARCHAR(255) NOT NULL,
+		`is_active`   BOOLEAN DEFAULT true,
+		`created_at`  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+		`updated_at`  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+	)
+	
+```
+
+We will create one more migration to populate users table with some data:
+
+```bash
+nano db/migrations/000002_insert_users.up.sql
+```
+
+```sql
+INSERT INTO users (`first_name`, `last_name`, `email`, `password`) VALUES ('John', 'Doe', 'john@example.com', 'password');
+INSERT INTO users (`first_name`, `last_name`, `email`, `password`) VALUES ('Uno', 'Glugate', 'uno@example.com', 'password');	
+```
+
+These migrations will be ran whe the application initializes. 
+
 Uno uses godotenv library to load environment variables from a file, so go ahead and install it:
 
 ```bash 
 go get github.com/joho/godotenv
 ```
 
-The isage of godotenv is very simple. Just add these lines at the beginning of your program:
+The usage of godotenv is very simple. Just add these lines at the beginning of your program:
 
 ```go
 err := godotenv.Load()
@@ -95,4 +132,8 @@ if err != nil {
 }
 ```
 
+You can nor run 
+```bash
+go run .
+```
 To be continued...
