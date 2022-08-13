@@ -202,12 +202,17 @@
     display: block;
     margin: auto 0;
     padding: 10px;
-    color: rgb(213, 213, 214);
+    color: rgb(36, 41, 47);
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     overflow-x: auto;
     word-break: break-all;
 }
+
+.dark .post-content pre code {
+    color: rgb(197, 196, 197);
+}
+
 
 .post-content blockquote {
     margin: 20px 0;
@@ -315,7 +320,7 @@
     padding-inline-end: 14px;
     color: var(--secondary);
     font-size: 14px;
-    line-height: 34px;
+    line-height: 28px;
     background: var(--code-bg);
 }
 
