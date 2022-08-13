@@ -41,6 +41,33 @@ func main() {
 
 ```
 
+We need a data source, so let's create MySql database:
+
+```bash
+mysql -u root -p
+```
+
+```mysql
+CREATE DATABASE uno_demo;
+exit;
+```
+
+Create .env file at the root of your project with some initial contents:
+
+```bash
+APP_NAME=Uno Demo
+APP_ENV=local
+APP_LOG_LEVEL=0
+
+# Server
+ADDRESS=127.0.0.1
+PORT=9090
+
+# MySql
+DB_DRIVER=mysql
+DB_DSN="root:root@tcp(127.0.0.1:3306)/uno_demo?parseTime=true"
+```
+
 Uno uses godotenv library to load environment variables from a file, so go ahead and install it:
 
 ```bash 
