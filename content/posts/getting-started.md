@@ -103,7 +103,7 @@ INSERT INTO users (`first_name`, `last_name`, `email`, `password`) VALUES ('John
 INSERT INTO users (`first_name`, `last_name`, `email`, `password`) VALUES ('Uno', 'Glugate', 'uno@example.com', 'password');	
 ```
 
-These migrations will be ran whe the application initializes. 
+These migrations will be ran when the application initializes. 
 
 Uno uses godotenv library to load environment variables from a file, so go ahead and install it:
 
@@ -132,7 +132,7 @@ if err != nil {
 }
 ```
 
-You can nor run 
+You can now run: 
 ```bash
 go run .
 ```
