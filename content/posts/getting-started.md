@@ -13,8 +13,10 @@ Let's create new Go project:
 ```
 mkdir uno-demo
 cd uno-demo
-go mod init
+go mod init github.com/glugate/uno-demo
 ```
+
+Please replace "glugate" with your GitHub user. 
 
 To install Uno , run the following command:
 
