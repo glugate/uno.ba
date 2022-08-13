@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Uno"
-date: 2022-08-11T23:00:10+02:00
+date: 2022-08-13T01:00:10+02:00
 draft: false
 tags: ["go", "uno", "framework", "api"]
 author: "Uno"
