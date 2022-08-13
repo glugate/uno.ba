@@ -113,12 +113,13 @@ go get github.com/joho/godotenv
 
 The usage of godotenv is very simple. Just add these lines at the beginning of your program:
 
-```go
+{{< highlight go "linenos=table" >}}
 err := godotenv.Load()
 if err != nil {
     panic(err)
 }
-```
+{{< / highlight >}}
+
 Next time you call [LookupEnv](https://pkg.go.dev/os#LookupEnv), e.g. ```go os.LookupEnv("<YOUR_ENV_VAR>") ```
 all your environment variables from .env file will already be loaded, and ready fro use.
 
