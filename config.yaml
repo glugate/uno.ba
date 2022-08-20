@@ -29,14 +29,14 @@ languages:
                 #- name: Archive
                 #  url: archives
                 #  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
+                #- name: Search
+                #  url: search/
+                #  weight: 10
                 - name: Tags
                   url: tags/
                   weight: 10
                 - name: WiKi
-                  url: https://uno.ba
+                  url: https://uno.ba/posts/getting-started/
 
 outputs:
     home:
